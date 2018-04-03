@@ -5,12 +5,46 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+    .hero-text {
+        margin-bottom: 100px;
+    }
+    
+
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- 
+    .header-area {
+        text-align: center;
+      }
+      .menu {
+        text-align: center;
+      }
+      .hero-area {
+        height: auto;
+      }
+      .hero-text {
+        margin-bottom: 55px;
+        margin-top: 150px;
+      }
+      .hero-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+      }
+      input {
+        margin-bottom: 20px;
+        padding: 12px 15px;
+      }
+      button {
+        padding: 10px 13px;
+      }
+      .footer-area p {
+        text-align: center;
+        float: none;
+      }
+      .footer-menu {
+        text-align: center;
+      }
     
 }
 /* Wide Mobile Layout: 480px. */
